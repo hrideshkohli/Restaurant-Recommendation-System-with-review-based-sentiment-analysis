@@ -10,14 +10,6 @@ What kind of a food is more popular in a locality.
 Do the entire locality loves vegetarian food. If yes then is that locality populated by a particular sect of people for eg. Jain, Marwaris, Gujaratis who are mostly vegetarian. These kind of analysis can be done using the data, by studying the factors such as • Location of the restaurant • Approx Price of food Theme based restaurant or not
 Which locality of that city serves that cuisines with maximum number of restaurants • The needs of people who are striving to get the best cuisine of the neighborhood • Is a particular neighborhood famous for its own kind of food.
 
-# Project highlights:
-
-- Perform extensive EDA on the data and understand the relationships
-- Use folium to display the heatmap on the map for better visualization
-- Perform Cosine similarity amongst the restaurants to find similar restaurants and group them together
-- Create a recommendation system where various similar restaurants will be recommended to the user on providing any restaurant of his choice.
-- Perform sentiment analysis on the reviews
-
 ### Columns description
 
 **url** contains the url of the restaurant in the zomato website
@@ -53,6 +45,21 @@ Which locality of that city serves that cuisines with maximum number of restaura
 **listed_in(type)** type of meal
 
 **listed_in(city)** contains the neighborhood in which the restaurant is listed
+
+# Project highlights:
+
+- Perform extensive EDA on the data and understand the relationships
+- Use folium to display the heatmap on the map for better visualization
+- Perform Cosine similarity amongst the restaurants to find similar restaurants and group them together
+- Create a recommendation system where various similar restaurants will be recommended to the user on providing any restaurant of his choice.
+- Perform sentiment analysis on the reviews
+
+# Techniques:
+- Seaborn and matplotlib charts for visualizations
+- Folium for heatmap visualizations on map window
+- Word cloud for visualizing best cuisines
+- Cosine based similarity index to build recommender system
+- Sentiment analysis using Neural networks (LSTM)
 
 ## Various conclusions from EDA:
 
